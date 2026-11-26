@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>과일키보드 — 획만 더하면 되는 한 손 한글 키보드</title>
+<meta name="description" content="4x4 큰 키에 획을 더해 한 손으로 빠르게 한글을 입력하는 iPhone 키보드. 입력 내용을 수집하지 않고 인터넷에 연결하지 않습니다.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg:#f5f5f7; --fg:#1d1d1f; --sub:#6e6e73; --blue:#0066cc; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1d1d1f; --fg:#f5f5f7; --sub:#a1a1a6; --blue:#2997ff; --card:#2c2c2e; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.5 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:72px 24px 48px; text-align:center; }
+  .icon { width:160px; height:160px; }
+  h1 { font-size:56px; letter-spacing:-.02em; margin:16px 0 8px; }
+  .lead { font-size:24px; color:var(--sub); margin:0 0 32px; }
+  .btn { display:inline-block; background:var(--blue); color:#fff; text-decoration:none; padding:14px 28px; border-radius:980px; font-weight:600; }
+  .meta { color:var(--sub); font-size:14px; margin-top:12px; }
+  pre { display:inline-block; background:var(--card); padding:12px 18px; border-radius:12px; font:15px ui-monospace, Menlo, monospace; margin:8px 0 0; user-select:all; max-width:100%; overflow-x:auto; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap:16px; margin:56px 0; text-align:left; }
+  .card { background:var(--card); border-radius:18px; padding:24px; }
+  .card h2 { font-size:19px; margin:0 0 6px; }
+  .card p { margin:0; color:var(--sub); font-size:15px; }
+  details { color:var(--sub); font-size:15px; max-width:560px; margin:0 auto; text-align:left; }
+  summary { cursor:pointer; text-align:center; }
+  footer { color:var(--sub); font-size:13px; padding:24px; text-align:center; }
+  a { color:var(--blue); }
+  .off { opacity:.55; cursor:default; }
+</style>
+<style>
+  .shots { display:flex; gap:16px; justify-content:center; margin:56px 0 0; overflow-x:auto; padding:4px; }
+  .shots img { height:460px; border-radius:22px; flex:none; box-shadow:0 8px 28px rgba(0,0,0,.28); }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="과일키보드 앱 아이콘">
+  <h1>과일키보드</h1>
+  <p class="lead">획만 더하면 되는<br>한 손 한글 iPhone 키보드.</p>
+
+  <span class="btn off">App Store · 무료</span>
+  <p class="meta">iPhone 전용 · iOS 17 이상 · 앱스토어 심사 중</p>
+
+  <div class="shots">
+    <img src="img/1_keyboard.png" alt="키보드 화면">
+    <img src="img/2_home.png" alt="앱 첫 화면">
+    <img src="img/3_scroll1.png" alt="설정 화면">
+  </div>
+
+  <section class="grid">
+    <div class="card"><h2>큰 키 4×4</h2><p>ㄱ ㄴ ㄹ ㅁ ㅅ ㅇ와 ㅏ ㅓ ㅗ ㅜ 같은 기본 자모만 큼직하게 둬서 한 손 엄지로 빠르게 칩니다.</p></div>
+    <div class="card"><h2>획만 더하면 끝</h2><p>ㄱ→ㅋ, ㄴ→ㄷ→ㅌ, ㅁ→ㅂ→ㅍ, ㅅ→ㅈ→ㅊ, ㅇ→ㅎ. 같은 키를 이어 눌러 획을 더합니다. 쌍자음 키로 ㄲ ㄸ ㅃ ㅆ ㅉ은 바로 입력합니다.</p></div>
+    <div class="card"><h2>내 손에 맞게</h2><p>햅틱 강도, 키보드 높이, 숫자 자판 0 옆 버튼의 기호를 앱에서 직접 바꿉니다.</p></div>
+    <div class="card"><h2>숫자·기호·커서</h2><p>숫자 자판, 기호 순환, 스페이스를 밀어 커서 이동, 지우기를 길게 눌러 단어 단위 삭제. 앱 안에서 바로 쳐 보며 연습할 수 있습니다.</p></div>
+    <div class="card"><h2>입력 내용은 기기 밖으로 나가지 않습니다</h2><p>인터넷에 연결하지 않고, 광고와 추적 도구가 없습니다. '전체 접근 허용'은 키 진동에만 쓰이며 꺼도 입력은 그대로 됩니다.</p></div>
+    <div class="card"><h2>이렇게 켜세요</h2><p>설정 → 일반 → 키보드 → 키보드 → 새로운 키보드 추가 → 과일키보드. 진동을 쓰려면 '전체 접근 허용'을 켭니다.</p></div>
+  </section>
+</main>
+<footer><a href="privacy.html">개인정보처리방침</a> · <a href="https://buymeacoffee.com/duckcy">Buy Me a Coffee</a> · <a href="https://duckcy.pages.dev">duckcy</a> · © lessthanchan</footer>
+</body>
+</html>
